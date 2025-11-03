@@ -1,7 +1,7 @@
 let num = 77777
 let input = num.toString()
 let allSame = true
-for(let i = 0; i<input.length; i++){
+for(let i = 0; i<=input.length; i++){
     if(input[i] != input[i+1]){
         allSame = false
         break
